@@ -27,9 +27,9 @@
       <tbody>
     <% if session[:user_id] %>
    <tr>
-   <td><%= link_to 'Orders', orders_path, class:"btn btn-info" %></td>
-   <td><%= link_to 'Products', products_path, class:"btn btn-info" %></td>
-   <td><%= link_to 'Users', users_path, class:"btn btn-info" %></td>
+   <td><%= link_to 'Orders', orders_path, class:"btn btn-default" %></td>
+   <td><%= link_to 'Products', products_path, class:"btn btn-default" %></td>
+   <td><%= link_to 'Users', users_path, class:"btn btn-default" %></td>
    </tr>
    
    <%= button_to 'Logout', logout_path, method: :delete %>
